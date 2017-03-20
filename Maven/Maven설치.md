@@ -23,6 +23,7 @@ pom.xml 파일을 기반으로 프로젝트의 라이브러리 관리를 해주�
 ### 2.2 Maven 다운로드
 
 ![다운로드](../Image/Maven1.png)
+
 - 해당 화면에서 압축파일을 다운로드 한다.
 
 ### 2.3 압축 해제
@@ -32,47 +33,40 @@ pom.xml 파일을 기반으로 프로젝트의 라이브러리 관리를 해주�
 ### 2.4 환경 변수 설정
 
 - Ctrl + R을 눌러 control system을 입력한다.
-<br/>
-![](../Image/Maven2.png)
+
+![](../Image/Maven2.PNG)
 
 - 고급 시스템 설정을 선택 > 고급 탭 > 환경 변수를 누른다.
-<br/>
-![](../Image/Maven3.png)
-<br/>
+
+![](../Image/Maven3.PNG)
 
 - 새로 만들기 버튼을 누르고 변수 이름에 **MAVEN_HOME** 을 입력하고 변수 값에는 메이븐 폴더가 위치한 경로를 입력한다.
-<br/>
-![](../Image/Maven4.png)  
-<br/>
+
+![](../Image/Maven4.PNG)  
 
 - path 편집 버튼을 누른 후 **%MAVEN_HOME%\bin** 을 추가한다.
-<br/>
-![](../Image/Maven5.png)
-<br/>
+
+![](../Image/Maven5.PNG)
 
 - Ctrl + R을 누르고 cmd를 입력한 후 mvn -version을 입력하여 환경 변수가 제대로 설정되었는지 확인한다.
-<br/>
-![](../Image/Maven6.png)
+
+![](../Image/Maven6.PNG)
 
 ## 3. 이클립스 연동
 
 - Window  > Preferences > Maven > Installations > add
-<br/>
-![](../Image/Maven7.png)
-<br/>
+
+![](../Image/Maven7.PNG)
 
 - Maven 폴더의 경로를 선택하고 Finish
-<br/>
-![](../Image/Maven8.png)
-<br/>
+
+![](../Image/Maven8.PNG)
 
 - Window > Preferences > Maven > User Settings 에서 User Settings를
 ***메이븐이 설치된 경로\conf\settings.xml*** 로 설정하고 OK를 누른다.
-<br/>
-![](../Image/Maven10.png)
-<br/>
+
+![](../Image/Maven10.PNG)
 
 - 추가로 Local Repository의 위치를 변경하고 싶다면 settings.xml에서 \<LocalRepsitory>안의 경로를 수정하면 된다.
-<br/>
-![](../Image/Maven9.png)
-<br/>
+
+![](../Image/Maven9.PNG)
