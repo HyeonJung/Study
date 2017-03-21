@@ -5,7 +5,9 @@
 ## 1. Maven이란 ?
 
 ```
-Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
+Apache Maven is a software project management and comprehension tool.
+Based on the concept of a project object model (POM), Maven can manage a project's build,    
+reporting and documentation from a central piece of information.
 ```
 
 Maven 홈페이지(http://maven.apache.org/) 들어가보면 위와 같이 정의되어 있다.
