@@ -8,4 +8,6 @@
 
 ### Spring Boot
 
-- [Spring Boot 시작하기](SpringBoot/스프링부트시작하기.md)
+- [Spring Boot 시작하기](SpringBoot/1-스프링부트-시작하기.md)
+- [Spring Boot 실행하기](SpringBoot/2-스프링부트-실행하기.md)
+- [Spring Boot DB연동](SpringBoot/3-스프링부트-DB연결.md)
